@@ -137,15 +137,15 @@ namespace ArrayList.Tests
             Assert.AreEqual(ex, actual);
         }
 
-         [TestCase(2, new int[] { 1, 5, 8 })]
-         [TestCase(0, new int[] { 1, 2, 2, 2, 5, 8 })]
-         [TestCase(8, new int[] { 1, 2, 2, 2, 5 })]
-         [TestCase(5, new int[] { 1, 2, 2, 2, 8 })]
-         [TestCase(1, new int[] { 2, 2, 2, 5, 8 })]
+         [TestCase(2, new int[] { 1, 5, 8, 5 })]
+         [TestCase(0, new int[] { 1, 2, 2, 2, 5, 8, 5, 2 })]
+         [TestCase(8, new int[] { 1, 2, 2, 2, 5, 5, 2 })]
+         [TestCase(5, new int[] { 1, 2, 2, 2, 8, 2 })]
+         [TestCase(1, new int[] { 2, 2, 2, 5, 8, 5, 2 })]
 
          public void RemoveAllTest(int a, int[] ex)
          {
-             int[] array = new int[] { 1, 2, 2, 2, 5, 8 };
+             int[] array = new int[] { 1, 2, 2, 2, 5, 8, 5, 2 };
              ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
              al.RemoveAll(a);
              int[] actual = al.ToArray();

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\ArrayList.csproj",
+      "projectUniqueName": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\ArrayList.csproj",
       "projectName": "ArrayList",
-      "projectPath": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\ArrayList.csproj",
+      "projectPath": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\ArrayList.csproj",
       "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\obj\\",
+      "outputPath": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Den\\AppData\\Roaming\\NuGet\\NuGet.Config",
