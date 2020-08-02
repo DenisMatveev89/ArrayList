@@ -24,3 +24,16 @@ C:\Users\Den\Desktop\C-Base\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.csproj.C
 C:\Users\Den\Desktop\C-Base\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.dll
 C:\Users\Den\Desktop\C-Base\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.pdb
 C:\Users\Den\Desktop\C-Base\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.genruntimeconfig.cache
+d:\ArrayList\ArrayList\bin\Debug\netcoreapp3.1\ArrayList.exe
+d:\ArrayList\ArrayList\bin\Debug\netcoreapp3.1\ArrayList.deps.json
+d:\ArrayList\ArrayList\bin\Debug\netcoreapp3.1\ArrayList.runtimeconfig.json
+d:\ArrayList\ArrayList\bin\Debug\netcoreapp3.1\ArrayList.runtimeconfig.dev.json
+d:\ArrayList\ArrayList\bin\Debug\netcoreapp3.1\ArrayList.dll
+d:\ArrayList\ArrayList\bin\Debug\netcoreapp3.1\ArrayList.pdb
+d:\ArrayList\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.csprojAssemblyReference.cache
+d:\ArrayList\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.AssemblyInfoInputs.cache
+d:\ArrayList\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.AssemblyInfo.cs
+d:\ArrayList\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.csproj.CoreCompileInputs.cache
+d:\ArrayList\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.dll
+d:\ArrayList\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.pdb
+d:\ArrayList\ArrayList\obj\Debug\netcoreapp3.1\ArrayList.genruntimeconfig.cache
