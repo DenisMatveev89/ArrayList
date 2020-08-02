@@ -16,7 +16,7 @@ namespace ArrayListProject
         }
         public ArrayList(int[] array)
         {
-            _array = new int[array.Length + 5];
+            _array = new int[array.Length+5];
             for (int i = 0; i < array.Length; i++)
             {
                 _array[i] = array[i];
@@ -196,9 +196,9 @@ namespace ArrayListProject
 
             if (index < _counter)
             {
-                _counter--;
 
                 ShiftLeft(_array, _array, index);
+                _counter--;
             }
             else
             {
