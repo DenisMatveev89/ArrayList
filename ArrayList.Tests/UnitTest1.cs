@@ -14,7 +14,7 @@ namespace ArrayList.Tests
         [TestCase(new int[] { 0, 0, 0, 0, 0 }, new int[] { 0, 0, 0, 0, 0 })]
         public void ReverseTest(int[] array, int[] ex)
         {
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int[] actual = al.Reverse();
             Assert.AreEqual(ex, actual);
 
@@ -26,7 +26,7 @@ namespace ArrayList.Tests
         [TestCase(-10, new int[] { -10 })]
         public void AddLastTest(int a, int[] ex)
         {
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList();
+            ArrayList al = new ArrayList();
             al.AddLast(a);
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -36,7 +36,7 @@ namespace ArrayList.Tests
         [TestCase(new int[] { }, new int[] { })]
         public void AddLastTest(int[] a, int[] ex)
         {
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList();
+            ArrayList al = new ArrayList();
             al.AddLast(a);
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -48,7 +48,7 @@ namespace ArrayList.Tests
         public void AddFirstTest(int a, int[] ex)
         {
             int[] array = new int[] { 2, 2, 2 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.AddFirst(a);
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -59,7 +59,7 @@ namespace ArrayList.Tests
         public void AddFirstTest(int[] a, int[] ex)
         {
             int[] array = new int[] { 2, 2, 2 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.AddFirst(a);
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -72,7 +72,7 @@ namespace ArrayList.Tests
         public void AddAtTest(int a, int b, int[] ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.AddAt(a, b);
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -84,7 +84,7 @@ namespace ArrayList.Tests
         public void AddAtTest(int a, int[] b, int[] ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.AddAt(a, b);
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -97,7 +97,7 @@ namespace ArrayList.Tests
         public void SetTest(int a, int b, int[] ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.Set(a, b);
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -107,7 +107,7 @@ namespace ArrayList.Tests
         public void RemoveFirstTest(int[] ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.RemoveFirst();
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -117,7 +117,7 @@ namespace ArrayList.Tests
         public void RemoveLastTest(int[] ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.RemoveLast();
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -131,22 +131,22 @@ namespace ArrayList.Tests
         public void RemoveAtTest(int a, int[] ex)
         {
             int[] array = new int[] { 1, 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.RemoveAt(a);
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
         }
 
-         [TestCase(2, new int[] { 1, 5, 8, 5 })]
-         [TestCase(0, new int[] { 1, 2, 2, 2, 5, 8, 5, 2 })]
-         [TestCase(8, new int[] { 1, 2, 2, 2, 5, 5, 2 })]
-         [TestCase(5, new int[] { 1, 2, 2, 2, 8, 2 })]
-         [TestCase(1, new int[] { 2, 2, 2, 5, 8, 5, 2 })]
+         [TestCase(2, new int[] { 1, 3, 7, 1, 5, 3, 87, 0, 1, 5 })]
+         [TestCase(0, new int[] { 1, 3, 7, 1, 5, 3, 2, 87, 1, 5 })]
+         [TestCase(5, new int[] { 1, 3, 7, 1, 3, 2, 87, 0, 1 })]
+         [TestCase(3, new int[] { 1, 7, 1, 5, 2, 87, 0, 1, 5 })]
+         [TestCase(1, new int[] { 3, 7, 5, 3, 2, 87, 0, 5 })]
 
          public void RemoveAllTest(int a, int[] ex)
          {
-             int[] array = new int[] { 1, 2, 2, 2, 5, 8, 5, 2 };
-             ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+             int[] array = new int[] { 1, 3, 7, 1, 5, 3, 2, 87, 0, 1, 5 };
+             ArrayList al = new ArrayList(array);
              al.RemoveAll(a);
              int[] actual = al.ToArray();
              Assert.AreEqual(ex, actual);
@@ -160,7 +160,7 @@ namespace ArrayList.Tests
         public void ContainsTest(int a, bool ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             bool actual = al.Contains(a);
             Assert.AreEqual(ex, actual);
         }
@@ -172,7 +172,7 @@ namespace ArrayList.Tests
         public void IndexOfTest(int a, int ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int actual = al.IndexOf(a);
             Assert.AreEqual(ex, actual);
         }
@@ -180,7 +180,7 @@ namespace ArrayList.Tests
         public void GetFirstTest(int ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int actual = al.GetFirst();
             Assert.AreEqual(ex, actual);
         }
@@ -189,7 +189,7 @@ namespace ArrayList.Tests
         public void GetLastTest(int ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int actual = al.GetLast();
             Assert.AreEqual(ex, actual);
         }
@@ -204,7 +204,7 @@ namespace ArrayList.Tests
         public void GetTest(int a, int ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int actual = al.Get(a);
             Assert.AreEqual(ex, actual);
         }
@@ -213,7 +213,7 @@ namespace ArrayList.Tests
         public void MaxTest(int ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int actual = al.Max();
             Assert.AreEqual(ex, actual);
         }
@@ -222,7 +222,7 @@ namespace ArrayList.Tests
         public void MinTest(int ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int actual = al.Min();
             Assert.AreEqual(ex, actual);
         }
@@ -231,7 +231,7 @@ namespace ArrayList.Tests
         public void IndexOfMaxTest(int ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int actual = al.IndexOfMax();
             Assert.AreEqual(ex, actual);
         }
@@ -240,7 +240,7 @@ namespace ArrayList.Tests
         public void IndexOfMinTest(int ex)
         {
             int[] array = new int[] { 2, 2, 2, 5, 8 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             int actual = al.IndexOfMin();
             Assert.AreEqual(ex, actual);
         }
@@ -249,7 +249,7 @@ namespace ArrayList.Tests
         public void SortTest(int[] ex)
         {
             int[] array = new int[] { 6, 7, 8, 1, 2 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.Sort();
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);
@@ -259,7 +259,7 @@ namespace ArrayList.Tests
         public void SortDescTest(int[] ex)
         {
             int[] array = new int[] { 6, 7, 8, 1, 2 };
-            ArrayListProject.ArrayList al = new ArrayListProject.ArrayList(array);
+            ArrayList al = new ArrayList(array);
             al.SortDesc();
             int[] actual = al.ToArray();
             Assert.AreEqual(ex, actual);

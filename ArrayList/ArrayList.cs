@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ArrayListProject
+namespace ArrayList
 {
     public class ArrayList
     {
@@ -346,7 +346,7 @@ namespace ArrayListProject
             }
             return min;
         }
-        private void Swap(int a, int b)
+        private void Swap(ref int a,ref int b)
         {
             int t = a;
             a = b;
@@ -364,7 +364,7 @@ namespace ArrayListProject
                     int j = i;
                     while ((j >= d) && (_array[j - d] > _array[j]))
                     {
-                        Swap(_array[j], _array[j - d]);
+                        Swap(ref _array[j], ref _array[j - d]);
                         j = j - d;
                     }
                 }
@@ -383,7 +383,7 @@ namespace ArrayListProject
                     int j = i;
                     while ((j >= d) && (_array[j - d] < _array[j]))
                     {
-                        Swap(_array[j], _array[j - d]);
+                        Swap(ref _array[j], ref _array[j - d]);
                         j = j - d;
                     }
                 }
