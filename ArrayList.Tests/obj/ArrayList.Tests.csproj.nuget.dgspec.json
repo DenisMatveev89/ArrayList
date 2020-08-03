@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj": {}
+    "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj": {
+    "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj",
         "projectName": "ArrayList.Tests",
-        "projectPath": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj",
+        "projectPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj",
         "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList.Tests\\obj\\",
+        "outputPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Den\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\ArrayList.csproj": {
-                "projectPath": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\ArrayList.csproj"
+              "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj": {
+                "projectPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\ArrayList.csproj": {
+    "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\ArrayList.csproj",
+        "projectUniqueName": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj",
         "projectName": "ArrayList",
-        "projectPath": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\ArrayList.csproj",
+        "projectPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj",
         "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList\\obj\\",
+        "outputPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Den\\AppData\\Roaming\\NuGet\\NuGet.Config",

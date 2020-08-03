@@ -1,5 +1,6 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ArrayListProject
@@ -16,7 +17,7 @@ namespace ArrayListProject
         }
         public ArrayList(int[] array)
         {
-            _array = new int[array.Length + 5];
+            _array = new int[array.Length+5];
             for (int i = 0; i < array.Length; i++)
             {
                 _array[i] = array[i];
@@ -196,9 +197,9 @@ namespace ArrayListProject
 
             if (index < _counter)
             {
-                _counter--;
 
                 ShiftLeft(_array, _array, index);
+                _counter--;
             }
             else
             {
@@ -208,13 +209,35 @@ namespace ArrayListProject
         // Удалить все элементы из массива, равные val.
         public void RemoveAll(int item) 
         {
+            /*if (item == _array[0])
+            {
+                RemoveFirst();
+            }*/
+            /*else if (item == _array[_counter - 1])
+            {
+                RemoveLast();
+            }*/
+            int j = 0;
+            int count = 0;
             for (int i = 0; i < _counter; i++)
             {
                 if (item == _array[i])
                 {
-                    RemoveAt(i);
+                    j++;
                 }
             }
+            int[] newArray = new int[_counter - j];
+            int q = 0;
+            for (int i = 0; i < _counter; i++)
+            {
+                if (item != _array[i])
+                {
+                    newArray[q] = _array[i];
+                    q++;
+                }
+            }
+            _counter = newArray.Length;
+            _array = newArray;
         }
         // Проверка, есть ли элемент в списке.
         public bool Contains(int item) 
@@ -349,6 +372,7 @@ namespace ArrayListProject
         // Сортировка по возрастанию.
         public void Sort()
         {
+
             int temp;
             for (int i = 0; i < _counter - 1; i++)
             {
@@ -379,8 +403,41 @@ namespace ArrayListProject
                     }
                 }
             }
-
         }
+
+        public int[] Merge_Sort(int[] array)
+        {
+            if (array.Length == 1)
+                return array;
+            int mid_point = _counter / 2;
+            return Merge(Merge_Sort(array.Take(mid_point).ToArray()), Merge_Sort(array.Skip(mid_point).ToArray()));
+        }
+
+        public int[] Merge(int[] array1, int[] array2)
+        {
+            int a = 0, b = 0;
+            int[] merged = new int[array1.Length + array2.Length];
+            for (int i = 0; i < array1.Length + array2.Length; i++)
+            {
+                if (b < array2.Length && a < array1.Length)
+                    if (array1[a] > array2[b])
+                        merged[i] = array2[b++];
+                    else //if int go for
+                        merged[i] = array1[a++];
+                else
+                    if (b < array2.Length)
+                    merged[i] = array2[b++];
+                else
+                    merged[i] = array1[a++];
+            }
+            return merged;
+        }
+
+
+
+
+
+
         // Вывод списка в консоль.
         public void PrintArrayList()
         {

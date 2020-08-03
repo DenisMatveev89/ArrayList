@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9JbwR+e7tVdg47BvUJ1JqtTWT6Z/Mx5Xd076vIHoyoPoQeqOroSWZe9nszWPjLhEXrd7sY/hpKT43XCqFkK+pA==",
+  "dgSpecHash": "wmYHkrxIaSjho/LCVn1UIxETiLZnEPAaDUpgzNIojVINL7ONsV2JFfnhyANAaXwrXizShBqkeHLNATt66GSPKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Den\\Desktop\\Cloud Mail.Ru\\C# Base\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj",
+  "projectFilePath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Den\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\Den\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
