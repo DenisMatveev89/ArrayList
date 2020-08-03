@@ -4649,11 +4649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList.Tests\\ArrayList.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj",
       "projectName": "ArrayList.Tests",
-      "projectPath": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList.Tests\\ArrayList.Tests.csproj",
+      "projectPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\ArrayList.Tests.csproj",
       "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList.Tests\\obj\\",
+      "outputPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Den\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4669,8 +4669,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\ArrayList.csproj": {
-              "projectPath": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\ArrayList.csproj"
+            "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj": {
+              "projectPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\ArrayList.csproj": {}
+    "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\ArrayList.csproj": {
+    "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\ArrayList.csproj",
+        "projectUniqueName": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj",
         "projectName": "ArrayList",
-        "projectPath": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\ArrayList.csproj",
+        "projectPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\ArrayList.csproj",
         "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Den\\Desktop\\C-Base\\ArrayList\\obj\\",
+        "outputPath": "c:\\Users\\Den\\Desktop\\ArrayList\\ArrayList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Den\\AppData\\Roaming\\NuGet\\NuGet.Config",
